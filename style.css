@@ -1,0 +1,43 @@
+
+/*div{
+    margin: 0px auto;
+    display: table;
+}*/
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+} 
+    
+#pravougaonik1{
+    border: 1px solid darkslategray;
+    text-align: center;
+    padding: 20px;
+    background-color: lightgreen;
+
+}
+#pravougaonik2{
+    border:1px dashed darkviolet;
+    text-align: right;
+    padding: 10px 30px;
+    background-color: lightcyan;
+}
+#pravougaonik3{
+    border: 1px dotted lightseagreen;
+    text-align: left;
+    padding: 10px 30px 50px 70px;
+    background-color: darkgoldenrod;
+}
+#dugme{
+    margin-top: 50px;
+    text-transform: uppercase;
+    background-color: blueviolet;
+    color: aquamarine;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
